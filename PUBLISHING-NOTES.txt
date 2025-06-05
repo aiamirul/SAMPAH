@@ -6,4 +6,6 @@ python -m build
 
 #pip install twine
 
-twine uploade  dist/*.whl
+
+#Must key in TOKEN Create one at PyPI or I one you already have
+twine upload  dist/*.whl
