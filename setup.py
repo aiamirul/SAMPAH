@@ -5,11 +5,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="sampah",  # your package name here
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
-    install_requires=[],
-    author="Your Name",
-    author_email="you@example.com",
+    include_package_data=True,  # <-- This is important!
+    install_requires=["flask"],
+     entry_points={
+        "console_scripts": [
+            "sampah=sampah.cli:main"
+        ]
+    },
+    author="Amirul Sadikin",
+    author_email="ai.amirul.sadikin@gmail.com",
     description="Short description of your package",
     long_description=long_description,
     long_description_content_type="text/markdown",

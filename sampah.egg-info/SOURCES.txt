@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+sampah/__init__.py
+sampah/cli.py
+sampah/web.py
+sampah.egg-info/PKG-INFO
+sampah.egg-info/SOURCES.txt
+sampah.egg-info/dependency_links.txt
+sampah.egg-info/entry_points.txt
+sampah.egg-info/requires.txt
+sampah.egg-info/top_level.txt
+sampah/static/style.css
+sampah/templates/index.html
+tests/test_basic.py

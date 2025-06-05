@@ -1,0 +1,2 @@
+recursive-include sampah/templates *
+recursive-include sampah/static *
