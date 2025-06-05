@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="sampah",  # your package name here
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     include_package_data=True,  # <-- This is important!
     install_requires=["flask"],
@@ -19,7 +19,7 @@ setup(
     description="Short description of your package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/SAMPAH",
+    url="https://github.com/aiamirul/SAMPAH",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

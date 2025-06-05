@@ -1,0 +1,9 @@
+#update version number at setup.py 
+#pip install build
+python -m build 
+
+#will create dist/*.whl
+
+#pip install twine
+
+twine uploade  dist/*.whl
